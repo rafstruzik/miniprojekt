@@ -1,0 +1,140 @@
+/* Plik CSS tu mamy kaskadowe arkusze stylów  */
+
+/* General rules */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styling elements in listed order */
+  
+  /* Container */
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 5px solid darkviolet;
+    border-radius: 10px;
+  }
+  
+  /* Header */
+  
+header {
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  /* Domyslnie 1rem=1em=16px */
+  nav ul li a {
+    font-size: 18px;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  
+  /* pseudoklasa CSS */
+  nav ul li a:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  /* Korzystajac tylko z pseudoklas zmien kolor na niebieski napisu Strona glowna w menu */
+  nav ul li:first-child a{
+      color: blue;
+  }
+  
+  /* Slider */
+  .slider img{
+      display: block;
+  }
+  
+  /* Main */
+  main{
+    display: flex;
+    background-color: lightgray;
+  }
+  
+  article{
+    width: 70%;   
+    margin-left: 20px; 
+  }
+  
+  article img{    
+    border: 5px solid red;   
+  }
+  
+  aside{
+    background-color: darkgrey;
+    width: 30%;
+  }
+  
+  .widget{
+    padding-bottom: 50px;
+  }
+  
+  .widget img{
+    border: 3px dotted darkblue;
+    float: left;
+    margin: 0 5px 3px 0;
+  }
+  
+  /* Links */
+  .links ul {
+    list-style-type: square;
+    padding-left: 30px;
+  }
+  
+  .links ul li{
+    padding-bottom: 20px;
+  }
+  
+  .widget, .links{
+    padding-left: 15px;
+  }
+  
+  /* Footer */
+
+  footer{
+    text-align: center;
+    color:brown;
+    font-weight: bold; 
+    background-color: rgb(232, 223, 211); 
+    padding: 10px;  
+  }
+
+  .social a img {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+        
+  }
+
+  main article h1 {
+    text-align: center;
+  }
+
+
+  /* homework ładnie ostylowac w CSS */
+  
